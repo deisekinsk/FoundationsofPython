@@ -7,7 +7,7 @@ lista_Y = ["Deise", "Cecília", "Laryssa"]
 def remove_repetidos(lista_Z):
     l = []
     for i in lista_Z:
-        if i not in l:
+        if i not in l: #repita até condição não for verdadeira.
             l.append(i)
     #l.sort()
     return l
